@@ -1,0 +1,38 @@
+.perfil{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.perfil-column{
+    /* border: 1px solid purple; */
+}
+
+.perfil-column  .perfil-pic{
+    background-color: #fff;
+    border: 1px solid #03a9f4;
+    padding: 10px;
+}
+
+.perfil-column  p{
+    width: 400px;
+    /* border: 1px solid red; */
+    padding: 20px;
+    text-align: justify;
+    color: #898686;
+    font-weight: 600;
+}
+
+.perfil-column  ol{
+    margin-left: 30px;
+}
+
+.perfil-column  ol li{
+    color: red;
+    padding: 10px;
+}
+
+.perfil-column  p b{
+    color: #03a9f4;
+}
